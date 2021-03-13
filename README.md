@@ -6,9 +6,9 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling can cause breakages; Covered by suggested selection of Bloclists.*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection
@@ -27,9 +27,13 @@
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
+	AdGuard DNS filter
+	Lightswitch05 - Ads & Tracking
+	NextDNS Ads & Trackers Blocklist
+	notracking
 	oisd
 ### Native Tracking Protection
-:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
+:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Blocklists.*
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
@@ -43,25 +47,33 @@
 
 ***
 
-# Denylist
-	graph.facebook.com → DO NOT ADD when active FaceBook users
-	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
-	gvt2.com
-	pubnub.com
-	s0.2mdn.net
+# Allowlist
+	graph.instagram.com → ONLY ADD when active Instagram user
+	fls-eu.amazon.de
+	mads-eu.amazon.de
+	mads-eu.amazon.com
+	fls-eu.amazon.com
+	sentry-cdn.com
+	app.powerbi.com
+	mydealz.digidip.net
+	s.youtube.com
+	blankrefer.com
+	api.xiaomi.com
+	plex.direct
+	spiegel.de
 
 ***
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page → :radioactive: *Enabling can cause breakages*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Page with NextDNS Root CA
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 ### CNAME Flattening
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
-
-***
-
-![Visit count](https://profile-counter.glitch.me/crssi/count.svg)
+### Handshake
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Resolve Handshake domains
+### Rewrites
+	.fritz.box → 192.168.178.1
