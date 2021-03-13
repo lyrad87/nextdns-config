@@ -51,8 +51,8 @@
 	graph.instagram.com → ONLY ADD when active Instagram user
 	fls-eu.amazon.de
 	mads-eu.amazon.de
-	mads-eu.amazon.com
 	fls-eu.amazon.com
+	mads-eu.amazon.com
 	sentry-cdn.com
 	app.powerbi.com
 	mydealz.digidip.net
