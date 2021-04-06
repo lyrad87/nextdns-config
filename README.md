@@ -26,7 +26,6 @@
 ### Blocklists
 	1Hosts (Lite)
 	AdGuard DNS filter
-	Lightswitch05 - Ads & Tracking
 	NextDNS Ads & Trackers Blocklist
 	notracking
 	oisd
